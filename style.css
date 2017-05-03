@@ -201,7 +201,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 54px;
 }
 #bloc-2 p{
-	font-size: 24.000000953674316px;
+	font-size: 18.000000953674316px;
 }
 #bloc-4 h1{
 	font-size: 56px;
@@ -214,22 +214,22 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-4 p{
 	font-size: 23px;
 }
-#bloc-5 h1{
+#diferenciais h1{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 56px;
 }
-#bloc-6 h2{
+#equipe h2{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 56px;
 }
-#bloc-7 h3{
+#acoes h3{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 54px;
 }
-#bloc-7 p{
+#acoes p{
 	font-size: 17px;
 }
 #bloc-8 h1{
@@ -237,44 +237,44 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-family: Lato;
 	font-weight: 400;
 }
-#bloc-9 h3{
+#futuros h3{
 	font-size: 54px;
 	font-family: Lato;
 	font-weight: 300;
 }
-#bloc-9 p{
+#futuros p{
 	font-size: 17px;
 }
-#bloc-10 h3{
+#previdenciaprivada h3{
 	font-size: 54px;
 	font-family: Lato;
 	font-weight: 300;
 }
-#bloc-10 p{
+#previdenciaprivada p{
 	font-size: 17px;
 }
-#bloc-11 h3{
+#rendafixa h3{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 54px;
 }
-#bloc-11 p{
+#rendafixa p{
 	font-size: 17px;
 }
-#bloc-12 h3{
+#fundosdeinvestimentos h3{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 54px;
 }
-#bloc-12 p{
+#fundosdeinvestimentos p{
 	font-size: 17px;
 }
-#bloc-13 h3{
+#fundosimobiliarios h3{
 	font-family: Lato;
 	font-weight: 300;
 	font-size: 54px;
 }
-#bloc-13 p{
+#fundosimobiliarios p{
 	font-size: 17px;
 }
 
@@ -636,6 +636,10 @@ iframe{
 	background-image:url('img/47705021-business-wallpaper.jpg');
 }
 
+.trabalheconosco {
+    background-image:url('img/trabalheconosco.jpg');
+}
+
 
 
 /* = Mobile adjustments 
@@ -680,13 +684,21 @@ iframe{
         padding-right:10px!important; 
     }
     #hero-bloc h1{
-        font-size:40px;
+        font-family: Lato;
+        font-size:35px;
+        font-weight: 200;
     }
     #hero-bloc h2{
         font-size:34px;
     }
     #hero-bloc h3{
         font-size:25px;
+    }
+    
+    #hero-bloc p{
+        font-family: Lato;
+        font-size:35px;
+        font-weight: 200;
     }
     .b-parallax{
         background-attachment:scroll;

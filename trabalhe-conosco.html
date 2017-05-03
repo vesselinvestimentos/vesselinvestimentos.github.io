@@ -31,7 +31,7 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row mini-nav">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/home.png" width="40%" height="auto" /></a>
+				<a class="navbar-brand" href="index.html"><img src="img/home.png" width="30%" height="auto" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -39,7 +39,7 @@
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav pull-right">
 					<li>
-						<a href="index.html" class="ltc-cadet">Home</a>
+						<a style="margin-left: 20px;" href="index.html" class="ltc-cadet">Home</a>
 					</li>
 					<li>
 						<div class="dropdown">
@@ -49,10 +49,10 @@
 									<a href="quem-somos.html" class="a-btn a-block">Nosso símbolo</a>
 								</li>
 								<li>
-									<a href="quem-somos.html" class="a-btn a-block">Diferenciais</a>
+									<a href="quem-somos.html#diferenciais" class="a-btn a-block">Diferenciais</a>
 								</li>
 								<li>
-									<a href="quem-somos.html" class="a-btn a-block">Equipe</a>
+									<a href="quem-somos.html#equipe" class="a-btn a-block">Equipe</a>
 								</li>
 							</ul>
 						</div>
@@ -65,19 +65,19 @@
 									<a href="investimentos.html" class="a-btn a-block">Ações</a>
 								</li>
 								<li>
-									<a href="investimentos.html" class="a-btn a-block">Futuros</a>
+									<a href="investimentos.html#futuros" class="a-btn a-block">Futuros</a>
 								</li>
 								<li>
-									<a href="investimentos.html" class="a-btn a-block">Renda Fixa</a>
+									<a href="investimentos.html#rendafixa" class="a-btn a-block">Renda Fixa</a>
 								</li>
 								<li>
-									<a href="investimentos.html" class="a-btn a-block">Previdência Privada</a>
+									<a href="investimentos.html#previdenciaprivada" class="a-btn a-block">Previdência Privada</a>
 								</li>
 								<li>
-									<a class="a-btn a-block" href="investimentos.html">Fundos de Investimentos</a>
+									<a class="a-btn a-block" href="investimentos.html#fundosdeinvestimentos">Fundos de Investimentos</a>
 								</li>
 								<li>
-									<a href="investimentos.html" class="a-btn a-block">Fundos Imobiliários</a>
+									<a href="investimentos.html#fundosimobiliarios" class="a-btn a-block">Fundos Imobiliários</a>
 								</li>
 							</ul>
 						</div>
@@ -89,7 +89,7 @@
 						<a href="trabalhe-conosco.html">Trabalhe Conosco</a>
 					</li>
 					<li>
-						<a id="pl-undefined" href="https://www.xpi.com.br/aai/" target="https://www.xpi.com.br/aai/#/passo/1?assessor=A76405">Abra sua conta</a>
+						<a style="margin-right: 20px;" href="https://www.xpi.com.br/aai/#/passo/1?assessor=A76405" class="btn btn-green-pigment " target="_blank">Abra sua conta</a>
 					</li>
 				</ul>
 			</div>
@@ -98,14 +98,25 @@
 </div>
 <!-- nav-bloc END -->
     
-<div style="background-color: #607D8B;" id="bloc-8">
+<!-- bloc-8 -->
+<div class="bloc bgc-white trabalheconosco d-bloc" id="bloc-8">
 	<div class="container bloc-lg">
 		<div class="row">
-            <div class="col-sm-12">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfsF11M4En7V_vSvKHDmn1vuwyS2S769jd-y7iNwSvmAHGmLg/viewform?embedded=true" width="100%" height="1200" frameborder="0" marginheight="0" marginwidth="0">A carregar...</iframe>
-            </div>
-        </div>
-    </div>
+			<div class="col-sm-12">
+				<h1 class="mg-md text-center  tc-white-2">
+					TRABALHE CONOSCO
+				</h1>
+			</div>
+		</div>
+		<div class="row voffset">
+			<div class="col-sm-12">
+                  <iframe id="JotFormIFrame-71225936708663" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="https://form.jotformz.com/71225936708663" frameborder="0" style="width:100%; height:0px; border:none;" scrolling="no"> </iframe> <script type="text/javascript"> var ifr = document.getElementById("JotFormIFrame-71225936708663"); if(window.location.href && window.location.href.indexOf("?") > -1) { var get = window.location.href.substr(window.location.href.indexOf("?") + 1); if(ifr && get.length > 0) { var src = ifr.src; src = src.indexOf("?") > -1 ? src + "&" + get : src + "?" + get; ifr.src = src; } } window.handleIFrameMessage = function(e) { var args = e.data.split(":"); if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[2]); } else { iframe = document.getElementById("JotFormIFrame"); } if (!iframe) return; switch (args[0]) { case "scrollIntoView": iframe.scrollIntoView(); break; case "setHeight": iframe.style.height = args[1] + "px"; break; case "collapseErrorPage": if (iframe.clientHeight > window.innerHeight) { iframe.style.height = window.innerHeight + "px"; } break; case "reloadPage": window.location.reload(); break; } var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false; if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) { var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)}; iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*"); } }; if (window.addEventListener) { window.addEventListener("message", handleIFrameMessage, false); } else if (window.attachEvent) { window.attachEvent("onmessage", handleIFrameMessage); } </script>
+                
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-8 END -->
 
 <!-- ScrollToTop Button -->
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
