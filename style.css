@@ -555,10 +555,12 @@ iframe{
 /* = Custom Styling
 -------------------------------------------------------------- */
 
- h1,h2,h3,h4,h5,h6,p,label,.btn,a{
+ 
+
+h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:Lato;
 	font-weight:700;
-}
+}   
   .container{
 	width:100%;
 	padding-left:15px;
@@ -594,7 +596,7 @@ iframe{
 	color:#FFFFFF!important;
 }
 .btn-green-pigment:hover{
-	background:#0e8937;
+	background:#0e8937!important;
 	color:#FFFFFF!important;
 }
 /* Link colour styles */
@@ -683,13 +685,14 @@ iframe{
         padding-left:10px!important; 
         padding-right:10px!important; 
     }
-    #hero-bloc h1{
-        font-family: Lato;
-        font-size:35px;
-        font-weight: 200;
-    }
     #hero-bloc h2{
-        font-size:34px;
+        font-family: Lato!important;
+        font-size:35px!important;
+        font-weight: 200!important;
+        }
+    
+    #hero-bloc h1{
+        font-size:35px;
     }
     #hero-bloc h3{
         font-size:25px;
@@ -883,3 +886,93 @@ iframe{
 	color: rgba(0,0,0,.6)!important;
 }
  }
+
+#caixa1    {  width:315px;
+           height:315px;
+           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+          border-bottom:2px solid #fff;
+          border-right:2px solid #fff;
+          margin:5% auto 0 auto; 
+          background:url(img/how-to-choose-a-financial-advisor.jpg);
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;}
+
+#caixa-overlay1    {  background:rgba(0,0,0,.75);
+               text-align:center;
+                width: 315px;
+    height: 315px;
+               padding:10px 10px 10px 10px;
+               opacity:0;
+               -webkit-transition: opacity .25s ease;}
+
+#caixa1:hover #caixa-overlay1 {
+               opacity:1;}
+
+#caixa-texto1       {  font-family:Lato;
+               font-weight:700;
+               color:#FFFFFF;
+               font-size:15px;
+margin-left: 5%;
+margin-right: 5%;}
+
+
+#caixa2    {  width:315px;
+           height:315px;
+           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+          border-bottom:2px solid #fff;
+          border-right:2px solid #fff;
+          margin:5% auto 0 auto; 
+          background:url(img/taxa.png);
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;}
+
+#caixa-overlay2    {  background:rgba(0,0,0,.75);
+               text-align:center;
+                width: 315px;
+    height: 315px;
+               padding:10px 10px 10px 10px;
+               opacity:0;
+               -webkit-transition: opacity .25s ease;}
+
+#caixa2:hover #caixa-overlay2 {
+               opacity:1;}
+
+#caixa-texto2       {  font-family:Lato;
+               font-weight:700;
+               color:#FFFFFF;
+               font-size:15px;
+margin-left: 5%;
+margin-right: 5%;}
+
+
+#caixa3    {  width:315px;
+           height:315px;
+           box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+          border-bottom:2px solid #fff;
+          border-right:2px solid #fff;
+          margin:5% auto 0 auto; 
+          background:url(img/Diversidade%20de%20Produtos-Vessel.png);
+  background-size:cover;
+border-radius:5px;
+overflow:hidden;}
+
+#caixa-overlay3    {  background:rgba(0,0,0,.75);
+               text-align:center;
+                width: 315px;
+    height: 315px;
+               padding:10px 10px 10px 10px;
+               opacity:0;
+               -webkit-transition: opacity .25s ease;}
+
+#caixa3:hover #caixa-overlay3 {
+               opacity:1;}
+
+#caixa-texto3       {  font-family:Lato;
+               font-weight:700;
+               color:#FFFFFF;
+               font-size:13.5px;
+margin-left: 5%;
+margin-right: 5%;}
+
